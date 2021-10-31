@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+
+
+.webcam606 ,.webcam607{
+    border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+
+.body2{
+  background-image:url(https://thumbs.dreamstime.com/t/horizontal-vector-banner-beach-sun-beds-umbrellas-sea-silhouettes-clouds-vacation-cartoon-illustration-panorama-73167956.jpg);
+}

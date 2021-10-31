@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <div class="body2">
+        <h3 class="h3-1">Face Recognisher app</h3>
+        <h3>Object is trained to indentify the following:</h3>
+        </div>
+        <div>
+        <button class="btn btn-warning  form-control">Angry</button>
+        <button class="btn btn-danger   form-control">Sad</button>
+        <button class="btn btn-info   form-control">Confused</button>
+        <button class="btn btn-primary form-control">Happy</button>
+        </div>
+        </center>
+
+        <h4>webcam view-</h4>
+        <div class="webcam606" id="camera">
+            
+        </div>
+        <br>
+        <div class="webcam607" id="results">
+            
+        </div>
+
+        <button onclick="take_snapshot()" class="btn btn-success btn-lg">TAKE SNAPSHOT</button>
+            <br>
+            <br>
+           <button onclick="check()" class="btn btn-success btn-lg">CHECK</button>
+    </body>
+    <script src="main.js"></script>
+</html>
